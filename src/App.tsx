@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Calendar from "./Resources/Calendar";
+import Clock from "./Resources/Clock";
+import ParticipantsSelector from "./Resources/ParticipantsSelector";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Calendar />
+      <Clock />
+      <ParticipantsSelector />
     </div>
   );
 }
